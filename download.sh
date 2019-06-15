@@ -21,6 +21,8 @@ then
 echo -e $STARTNUMBER"\t"$RESULT
 let "STARTNUMBER++"
 else
+# say "Uh oh...missed one. Trying again now!"
+tput bel
 echo -e $STARTNUMBER"\t"$RESULT
 fi
 
